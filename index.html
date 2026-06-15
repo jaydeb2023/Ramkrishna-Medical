@@ -1,0 +1,936 @@
+<!DOCTYPE html>
+<html lang="en" id="html-root">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ramkrishna Medical & Diagnostic | পূর্বশ্রীধরপুর | Raidighi</title>
+<meta name="description" content="Ramkrishna Medical & Diagnostic - Best medicine shop and clinic in Purbasridharpur, Raidighi. Blood test, X-ray, ECG, USG, emergency services. Serving Nagendrapur, Damkal, Kankandighi.">
+<meta name="keywords" content="medical shop Raidighi, medicine Nagendrapur, diagnostic Damkal, clinic Kankandighi, blood test Purbasridharpur, ramkrishna bazar medical, South 24 Parganas medicine, ওষুধের দোকান রাইদিঘি, ডায়াগনস্টিক নাগেন্দ্রপুর">
+<meta name="geo.region" content="IN-WB">
+<meta name="geo.placename" content="Purbasridharpur, South 24 Parganas">
+<meta name="geo.position" content="22.0500;88.5000">
+<meta name="robots" content="index, follow">
+<meta property="og:title" content="Ramkrishna Medical & Diagnostic | রামকৃষ্ণ মেডিকেল">
+<meta property="og:description" content="Medicine, Blood Test, ECG, USG, Emergency - Purbasridharpur, Raidighi">
+<meta property="og:type" content="business.business">
+<link rel="canonical" href="https://ramkrishnamedical.in/">
+
+<!-- Schema Markup for Local SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalBusiness",
+  "name": "Ramkrishna Medical & Diagnostic",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Ramkrishna Bazar",
+    "addressLocality": "Purbasridharpur",
+    "addressRegion": "West Bengal",
+    "postalCode": "743383",
+    "addressCountry": "IN"
+  },
+  "telephone": "+91-XXXXXXXXXX",
+  "openingHours": "Mo-Su 08:00-21:00",
+  "areaServed": ["Nagendrapur", "Damkal", "Kankandighi", "Raidighi", "Purbasridharpur"],
+  "medicalSpecialty": ["General Practice", "Diagnostic Testing", "Emergency Medicine"]
+}
+</script>
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+  :root {
+    --green: #1a7a4a;
+    --green-light: #25a366;
+    --green-pale: #e8f5ee;
+    --red: #e63946;
+    --red-pale: #fdecea;
+    --white: #ffffff;
+    --gray-100: #f7f9f7;
+    --gray-200: #e8ede8;
+    --gray-800: #1c2b1c;
+    --gold: #c9a84c;
+    --shadow: 0 4px 24px rgba(26,122,74,0.10);
+    --shadow-lg: 0 8px 40px rgba(26,122,74,0.16);
+    --radius: 14px;
+    --font-main: 'Poppins', 'Hind Siliguri', sans-serif;
+  }
+
+  * { margin:0; padding:0; box-sizing:border-box; }
+  
+  body {
+    font-family: var(--font-main);
+    background: var(--gray-100);
+    color: var(--gray-800);
+    overflow-x: hidden;
+  }
+
+  .lang-bn { display: none; }
+  .lang-en { display: block; }
+  body.bangla .lang-en { display: none; }
+  body.bangla .lang-bn { display: block; }
+  body.bangla { font-family: 'Hind Siliguri', sans-serif; }
+
+  /* ── LANG SWITCH ── */
+  .lang-bar {
+    background: var(--green);
+    padding: 6px 0;
+    text-align: right;
+  }
+  .lang-bar .inner { max-width:1100px; margin:auto; padding:0 20px; display:flex; justify-content:space-between; align-items:center; }
+  .lang-bar span { color: rgba(255,255,255,0.75); font-size: 12px; }
+  .lang-toggle {
+    display:flex; gap:6px;
+  }
+  .lang-btn {
+    background: rgba(255,255,255,0.15);
+    border: 1px solid rgba(255,255,255,0.35);
+    color: white;
+    padding: 3px 14px;
+    border-radius: 20px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: all 0.2s;
+    font-family: var(--font-main);
+  }
+  .lang-btn.active { background: white; color: var(--green); font-weight: 600; }
+  .lang-btn:hover { background: rgba(255,255,255,0.25); }
+
+  /* ── HEADER ── */
+  header {
+    background: white;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.08);
+  }
+  .header-inner {
+    max-width: 1100px;
+    margin: auto;
+    padding: 14px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    text-decoration: none;
+  }
+  .logo-icon {
+    width: 48px; height: 48px;
+    background: var(--green);
+    border-radius: 12px;
+    display: flex; align-items:center; justify-content:center;
+    font-size: 24px;
+    flex-shrink: 0;
+  }
+  .logo-text h1 { font-size: 17px; font-weight: 700; color: var(--green); line-height: 1.2; }
+  .logo-text p { font-size: 11px; color: #666; }
+
+  nav { display:flex; gap:6px; align-items:center; }
+  nav a {
+    font-size: 13px;
+    color: var(--gray-800);
+    text-decoration: none;
+    padding: 6px 12px;
+    border-radius: 8px;
+    transition: all 0.2s;
+    font-weight: 500;
+  }
+  nav a:hover { background: var(--green-pale); color: var(--green); }
+  .nav-cta {
+    background: var(--green) !important;
+    color: white !important;
+    padding: 8px 16px !important;
+  }
+  .nav-cta:hover { background: var(--green-light) !important; }
+
+  .hamburger { display:none; background:none; border:none; font-size:24px; cursor:pointer; }
+
+  /* ── HERO ── */
+  .hero {
+    background: linear-gradient(135deg, #0d5c35 0%, #1a7a4a 50%, #0f4a2a 100%);
+    padding: 60px 20px 70px;
+    position: relative;
+    overflow: hidden;
+  }
+  .hero::before {
+    content:'';
+    position:absolute; inset:0;
+    background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.03'%3E%3Ccircle cx='30' cy='30' r='20'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  }
+  .hero-inner {
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    position:relative;
+  }
+  .hero-text { flex: 1; }
+  .hero-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: rgba(255,255,255,0.15);
+    border: 1px solid rgba(255,255,255,0.25);
+    color: #c9f5de;
+    font-size: 12px;
+    padding: 5px 14px;
+    border-radius: 20px;
+    margin-bottom: 16px;
+    font-weight: 500;
+  }
+  .hero-badge::before { content:'●'; font-size:8px; color:#4ade80; }
+  .hero h2 {
+    font-size: clamp(26px, 5vw, 44px);
+    color: white;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 8px;
+  }
+  .hero h2 span { color: #7fffc0; }
+  .hero-sub {
+    font-size: 15px;
+    color: rgba(255,255,255,0.80);
+    margin-bottom: 28px;
+    line-height: 1.6;
+    max-width: 520px;
+  }
+  .hero-btns { display:flex; gap:12px; flex-wrap:wrap; }
+  .btn-primary {
+    background: white;
+    color: var(--green);
+    padding: 13px 26px;
+    border-radius: 50px;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 15px;
+    transition: all 0.2s;
+    display:inline-flex; align-items:center; gap:8px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+  }
+  .btn-primary:hover { transform:translateY(-2px); box-shadow: 0 8px 30px rgba(0,0,0,0.2); }
+  .btn-wa {
+    background: #25D366;
+    color: white;
+    padding: 13px 26px;
+    border-radius: 50px;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 15px;
+    transition: all 0.2s;
+    display:inline-flex; align-items:center; gap:8px;
+    box-shadow: 0 4px 20px rgba(37,211,102,0.3);
+  }
+  .btn-wa:hover { transform:translateY(-2px); background:#1ebe5a; }
+
+  .hero-card {
+    background: rgba(255,255,255,0.10);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255,255,255,0.20);
+    border-radius: 20px;
+    padding: 28px;
+    min-width: 240px;
+    flex-shrink: 0;
+  }
+  .hero-card h3 { color: white; font-size: 15px; font-weight: 600; margin-bottom: 14px; }
+  .hero-stat { display:flex; justify-content:space-between; margin-bottom: 10px; }
+  .hero-stat span { color: rgba(255,255,255,0.7); font-size: 13px; }
+  .hero-stat strong { color: #7fffc0; font-size: 13px; }
+  .hero-divider { border: none; border-top: 1px solid rgba(255,255,255,0.15); margin: 10px 0; }
+
+  /* ── TRUST STRIP ── */
+  .trust-strip {
+    background: white;
+    padding: 18px 20px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.05);
+  }
+  .trust-inner {
+    max-width:1100px; margin:auto;
+    display:flex; gap:24px; align-items:center; flex-wrap:wrap; justify-content:center;
+  }
+  .trust-item { display:flex; align-items:center; gap:8px; font-size:13px; color:#555; }
+  .trust-item span { font-size:18px; }
+  .trust-sep { color:#ddd; font-size:20px; }
+
+  /* ── SECTION ── */
+  .section { padding: 60px 20px; }
+  .section-inner { max-width:1100px; margin:auto; }
+  .section-label { font-size:12px; letter-spacing:2px; text-transform:uppercase; color:var(--green); font-weight:600; margin-bottom:8px; }
+  .section-title { font-size: clamp(22px, 4vw, 34px); font-weight:700; color:var(--gray-800); margin-bottom:12px; line-height:1.25; }
+  .section-sub { font-size:15px; color:#666; max-width:600px; line-height:1.6; margin-bottom:40px; }
+
+  /* ── SERVICES ── */
+  .services-bg { background: var(--gray-100); }
+  .services-grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap:20px; }
+  .service-card {
+    background: white;
+    border-radius: var(--radius);
+    padding: 24px;
+    box-shadow: var(--shadow);
+    transition: all 0.25s;
+    border-bottom: 3px solid transparent;
+    cursor: default;
+  }
+  .service-card:hover { transform:translateY(-4px); box-shadow:var(--shadow-lg); border-bottom-color:var(--green); }
+  .service-icon { width:52px; height:52px; background:var(--green-pale); border-radius:12px; display:flex; align-items:center; justify-content:center; font-size:26px; margin-bottom:14px; }
+  .service-card h3 { font-size:16px; font-weight:700; color:var(--gray-800); margin-bottom:6px; }
+  .service-card p { font-size:13px; color:#666; line-height:1.5; }
+  .service-tag { display:inline-block; font-size:11px; background:var(--green-pale); color:var(--green); padding:3px 10px; border-radius:20px; margin-top:10px; font-weight:500; }
+
+  /* ── TESTS ── */
+  .tests-bg { background: white; }
+  .tests-grid { display:grid; grid-template-columns:repeat(auto-fill, minmax(160px, 1fr)); gap:12px; }
+  .test-pill {
+    background: var(--green-pale);
+    border: 1px solid #c4e6d4;
+    border-radius: 10px;
+    padding: 12px 16px;
+    text-align:center;
+    font-size:14px;
+    font-weight:600;
+    color:var(--green);
+    transition: all 0.2s;
+  }
+  .test-pill:hover { background:var(--green); color:white; transform:scale(1.03); }
+  .test-pill small { display:block; font-size:11px; font-weight:400; color:inherit; opacity:0.8; margin-top:2px; }
+
+  /* ── EMERGENCY ── */
+  .emergency-bg {
+    background: linear-gradient(135deg, #b91c1c, #e63946);
+    padding: 48px 20px;
+  }
+  .emergency-inner { max-width:1100px; margin:auto; display:flex; gap:32px; align-items:center; flex-wrap:wrap; }
+  .emergency-text { flex:1; min-width:240px; }
+  .emergency-text h2 { font-size:28px; font-weight:800; color:white; margin-bottom:10px; }
+  .emergency-text p { color:rgba(255,255,255,0.85); font-size:15px; line-height:1.6; }
+  .emergency-btn {
+    background:white; color:var(--red); padding:15px 32px; border-radius:50px; font-weight:800;
+    text-decoration:none; font-size:17px; box-shadow:0 4px 24px rgba(0,0,0,0.2);
+    display:inline-flex; align-items:center; gap:10px; white-space:nowrap;
+    transition:all 0.2s; flex-shrink:0;
+  }
+  .emergency-btn:hover { transform:scale(1.05); }
+
+  /* ── WHY ── */
+  .why-grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap:20px; }
+  .why-card { text-align:center; padding:28px 20px; background:white; border-radius:var(--radius); box-shadow:var(--shadow); }
+  .why-num { font-size:38px; font-weight:800; color:var(--green); line-height:1; margin-bottom:6px; }
+  .why-card h4 { font-size:15px; font-weight:700; margin-bottom:6px; }
+  .why-card p { font-size:13px; color:#666; }
+
+  /* ── AREA TAGS ── */
+  .area-bg { background: var(--gray-100); }
+  .area-tags { display:flex; flex-wrap:wrap; gap:10px; margin-top:24px; }
+  .area-tag {
+    background:white; border:1.5px solid var(--green-pale); color:var(--green);
+    padding:8px 18px; border-radius:50px; font-size:13px; font-weight:500;
+    box-shadow: 0 2px 8px rgba(26,122,74,0.07);
+    display:flex; align-items:center; gap:6px;
+  }
+  .area-tag::before { content:'📍'; font-size:12px; }
+
+  /* ── MAP ── */
+  .map-section { background:white; padding:0 20px 60px; }
+  .map-inner { max-width:1100px; margin:auto; }
+  .map-wrap {
+    border-radius: var(--radius);
+    overflow:hidden;
+    box-shadow: var(--shadow-lg);
+    border: 3px solid var(--green-pale);
+  }
+  .map-wrap iframe { width:100%; height:340px; border:none; display:block; }
+
+  /* ── FOOTER ── */
+  footer {
+    background: #0d2b1a;
+    color: rgba(255,255,255,0.7);
+    padding: 40px 20px 20px;
+  }
+  .footer-inner { max-width:1100px; margin:auto; }
+  .footer-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:32px; margin-bottom:32px; }
+  .footer-col h4 { color:white; font-size:15px; font-weight:700; margin-bottom:14px; }
+  .footer-col p, .footer-col a { font-size:13px; color:rgba(255,255,255,0.65); line-height:1.8; text-decoration:none; display:block; }
+  .footer-col a:hover { color:#7fffc0; }
+  .footer-bottom { border-top:1px solid rgba(255,255,255,0.1); padding-top:18px; display:flex; justify-content:space-between; flex-wrap:wrap; gap:10px; font-size:12px; }
+
+  /* ── CHATBOT ── */
+  .chat-fab {
+    position:fixed; bottom:90px; right:22px; z-index:999;
+    width:58px; height:58px; background:var(--green);
+    border-radius:50%; display:flex; align-items:center; justify-content:center;
+    cursor:pointer; box-shadow: 0 4px 20px rgba(26,122,74,0.4);
+    font-size:26px; border:none; transition:all 0.25s;
+    animation: pulse-green 2.5s infinite;
+  }
+  .chat-fab:hover { transform:scale(1.12); background:var(--green-light); }
+  @keyframes pulse-green {
+    0%,100% { box-shadow: 0 4px 20px rgba(26,122,74,0.4); }
+    50% { box-shadow: 0 4px 32px rgba(26,122,74,0.7), 0 0 0 8px rgba(26,122,74,0.10); }
+  }
+
+  .wa-fab {
+    position:fixed; bottom:22px; right:22px; z-index:999;
+    width:58px; height:58px; background:#25D366;
+    border-radius:50%; display:flex; align-items:center; justify-content:center;
+    cursor:pointer; box-shadow: 0 4px 20px rgba(37,211,102,0.4);
+    font-size:30px; text-decoration:none; transition:all 0.25s;
+  }
+  .wa-fab:hover { transform:scale(1.12); }
+
+  /* ── CHAT WINDOW ── */
+  .chat-window {
+    position:fixed; bottom:160px; right:22px; z-index:1000;
+    width:340px; max-height:480px;
+    background:white; border-radius:20px;
+    box-shadow: 0 12px 60px rgba(0,0,0,0.2);
+    display:none; flex-direction:column;
+    overflow:hidden;
+    border: 1px solid var(--green-pale);
+  }
+  .chat-window.open { display:flex; animation: slideUp 0.25s ease; }
+  @keyframes slideUp { from{opacity:0;transform:translateY(20px)} to{opacity:1;transform:translateY(0)} }
+
+  .chat-header {
+    background: var(--green);
+    padding: 14px 18px;
+    display:flex; align-items:center; gap:10px; justify-content:space-between;
+  }
+  .chat-header-left { display:flex; align-items:center; gap:10px; }
+  .chat-avatar { width:36px;height:36px; background:rgba(255,255,255,0.2); border-radius:50%; display:flex;align-items:center;justify-content:center; font-size:20px; }
+  .chat-header h4 { color:white; font-size:14px; font-weight:700; margin-bottom:2px; }
+  .chat-header p { color:rgba(255,255,255,0.75); font-size:11px; }
+  .chat-close { background:none;border:none;color:white;font-size:20px;cursor:pointer;line-height:1; }
+
+  .chat-messages { flex:1; overflow-y:auto; padding:16px; display:flex; flex-direction:column; gap:10px; }
+  .msg { max-width:85%; font-size:13px; line-height:1.5; padding:10px 14px; border-radius:14px; }
+  .msg.bot { background:var(--green-pale); color:var(--gray-800); align-self:flex-start; border-bottom-left-radius:4px; }
+  .msg.user { background:var(--green); color:white; align-self:flex-end; border-bottom-right-radius:4px; }
+  .msg.typing { background:var(--green-pale); align-self:flex-start; padding:12px 18px; }
+  .typing-dots { display:flex; gap:4px; }
+  .typing-dots span { width:7px;height:7px;background:#999;border-radius:50%; animation:bounce 1.2s infinite; }
+  .typing-dots span:nth-child(2){animation-delay:0.2s}
+  .typing-dots span:nth-child(3){animation-delay:0.4s}
+  @keyframes bounce{0%,80%,100%{transform:translateY(0)}40%{transform:translateY(-6px)}}
+
+  .chat-quick { padding:8px 16px; display:flex; gap:6px; flex-wrap:wrap; }
+  .quick-btn { background:var(--green-pale); color:var(--green); border:1px solid #c4e6d4; padding:6px 12px; border-radius:20px; font-size:12px; cursor:pointer; transition:all 0.2s; font-family:var(--font-main); }
+  .quick-btn:hover { background:var(--green); color:white; }
+
+  .chat-input-row { padding:12px 14px; border-top:1px solid var(--gray-200); display:flex; gap:8px; }
+  .chat-input { flex:1; border:1.5px solid var(--gray-200); border-radius:50px; padding:9px 16px; font-size:13px; outline:none; font-family:var(--font-main); }
+  .chat-input:focus { border-color:var(--green); }
+  .chat-send { background:var(--green); color:white; border:none; border-radius:50%; width:36px;height:36px; cursor:pointer; font-size:16px; transition:all 0.2s; flex-shrink:0; }
+  .chat-send:hover { background:var(--green-light); }
+
+  /* ── MOBILE ── */
+  @media(max-width:700px){
+    nav { display:none; position:absolute; top:76px; left:0; right:0; background:white; padding:16px; flex-direction:column; box-shadow:0 8px 24px rgba(0,0,0,0.1); }
+    nav.open { display:flex; }
+    .hamburger { display:block; }
+    .hero-inner { flex-direction:column; }
+    .hero-card { width:100%; min-width:unset; }
+    .chat-window { width:calc(100vw - 40px); right:20px; }
+    .emergency-inner { flex-direction:column; text-align:center; }
+    .footer-bottom { flex-direction:column; text-align:center; }
+  }
+</style>
+</head>
+<body id="body-root">
+
+<!-- LANG BAR -->
+<div class="lang-bar">
+  <div class="inner">
+    <span>
+      <span class="lang-en">📍 Purbasridharpur, Raidighi, South 24 Parganas – 743383</span>
+      <span class="lang-bn">📍 পূর্বশ্রীধরপুর, রাইদিঘি, দক্ষিণ ২৪ পরগনা – ৭৪৩৩৮৩</span>
+    </span>
+    <div class="lang-toggle">
+      <button class="lang-btn active" id="btn-en" onclick="setLang('en')">English</button>
+      <button class="lang-btn" id="btn-bn" onclick="setLang('bn')">বাংলা</button>
+    </div>
+  </div>
+</div>
+
+<!-- HEADER -->
+<header>
+  <div class="header-inner">
+    <a href="#" class="logo">
+      <div class="logo-icon">🏥</div>
+      <div class="logo-text">
+        <h1 class="lang-en">Ramkrishna Medical</h1>
+        <h1 class="lang-bn">রামকৃষ্ণ মেডিকেল</h1>
+        <p class="lang-en">& Diagnostic Centre</p>
+        <p class="lang-bn">ও ডায়াগনস্টিক সেন্টার</p>
+      </div>
+    </a>
+    <button class="hamburger" onclick="document.querySelector('nav').classList.toggle('open')">☰</button>
+    <nav id="main-nav">
+      <a href="#services"><span class="lang-en">Services</span><span class="lang-bn">সেবা</span></a>
+      <a href="#tests"><span class="lang-en">Tests</span><span class="lang-bn">পরীক্ষা</span></a>
+      <a href="#area"><span class="lang-en">Areas</span><span class="lang-bn">এলাকা</span></a>
+      <a href="#contact"><span class="lang-en">Contact</span><span class="lang-bn">যোগাযোগ</span></a>
+      <a href="https://wa.me/91XXXXXXXXXX" class="nav-cta">
+        <span class="lang-en">📞 Call Now</span>
+        <span class="lang-bn">📞 এখনই কল করুন</span>
+      </a>
+    </nav>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-inner">
+    <div class="hero-text">
+      <div class="hero-badge">
+        <span class="lang-en">Open Daily · 8AM – 9PM</span>
+        <span class="lang-bn">প্রতিদিন খোলা · সকাল ৮টা – রাত ৯টা</span>
+      </div>
+      <h2 class="lang-en">Your Trusted <span>Health Partner</span><br>Near Raidighi</h2>
+      <h2 class="lang-bn">আপনার বিশ্বস্ত <span>স্বাস্থ্যসেবা কেন্দ্র</span><br>রাইদিঘির কাছে</h2>
+      <p class="hero-sub lang-en">Medicine, blood tests, ECG, USG, X-ray & emergency care — all under one roof at Purbasridharpur, Ramkrishna Bazar.</p>
+      <p class="hero-sub lang-bn">ওষুধ, রক্ত পরীক্ষা, ইসিজি, ইউএসজি, এক্স-রে ও জরুরি সেবা — সব কিছু এক জায়গায়, পূর্বশ্রীধরপুর, রামকৃষ্ণ বাজারে।</p>
+      <div class="hero-btns">
+        <a href="https://wa.me/91XXXXXXXXXX" class="btn-wa">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.124.557 4.118 1.529 5.845L0 24l6.344-1.524A11.95 11.95 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.83 9.83 0 01-5.012-1.37l-.36-.214-3.724.895.929-3.631-.234-.373A9.817 9.817 0 012.182 12C2.182 6.57 6.57 2.182 12 2.182S21.818 6.57 21.818 12 17.43 21.818 12 21.818z"/></svg>
+          <span class="lang-en">WhatsApp Us</span>
+          <span class="lang-bn">হোয়াটসঅ্যাপ করুন</span>
+        </a>
+        <a href="#services" class="btn-primary">
+          <span class="lang-en">Our Services ↓</span>
+          <span class="lang-bn">আমাদের সেবা ↓</span>
+        </a>
+      </div>
+    </div>
+    <div class="hero-card">
+      <h3 class="lang-en">Quick Info</h3>
+      <h3 class="lang-bn">দ্রুত তথ্য</h3>
+      <hr class="hero-divider">
+      <div class="hero-stat"><span class="lang-en">📍 Location</span><span class="lang-bn">📍 অবস্থান</span><strong class="lang-en">Ramkrishna Bazar</strong><strong class="lang-bn">রামকৃষ্ণ বাজার</strong></div>
+      <div class="hero-stat"><span class="lang-en">🕐 Opens</span><span class="lang-bn">🕐 খোলে</span><strong>8:00 AM</strong></div>
+      <div class="hero-stat"><span class="lang-en">🩺 Emergency</span><span class="lang-bn">🩺 জরুরি</span><strong class="lang-en">Available</strong><strong class="lang-bn">পাওয়া যায়</strong></div>
+      <div class="hero-stat"><span class="lang-en">📦 Orders</span><span class="lang-bn">📦 অর্ডার</span><strong class="lang-en">Home Delivery</strong><strong class="lang-bn">হোম ডেলিভারি</strong></div>
+      <hr class="hero-divider">
+      <div class="hero-stat"><span>PIN</span><strong>743383</strong></div>
+    </div>
+  </div>
+</section>
+
+<!-- TRUST STRIP -->
+<div class="trust-strip">
+  <div class="trust-inner">
+    <div class="trust-item"><span>✅</span> <span class="lang-en">Licensed Medicines</span><span class="lang-bn">লাইসেন্সপ্রাপ্ত ওষুধ</span></div>
+    <div class="trust-sep">|</div>
+    <div class="trust-item"><span>🧪</span> <span class="lang-en">Certified Tests</span><span class="lang-bn">সার্টিফাইড পরীক্ষা</span></div>
+    <div class="trust-sep">|</div>
+    <div class="trust-item"><span>🚑</span> <span class="lang-en">Emergency Ready</span><span class="lang-bn">জরুরি প্রস্তুত</span></div>
+    <div class="trust-sep">|</div>
+    <div class="trust-item"><span>💊</span> <span class="lang-en">All Brand Medicines</span><span class="lang-bn">সকল ব্র্যান্ডের ওষুধ</span></div>
+    <div class="trust-sep">|</div>
+    <div class="trust-item"><span>🏠</span> <span class="lang-en">Home Delivery</span><span class="lang-bn">হোম ডেলিভারি</span></div>
+  </div>
+</div>
+
+<!-- SERVICES -->
+<section class="section services-bg" id="services">
+  <div class="section-inner">
+    <p class="section-label lang-en">What We Offer</p>
+    <p class="section-label lang-bn">আমরা কী দিই</p>
+    <h2 class="section-title lang-en">Complete Health Services</h2>
+    <h2 class="section-title lang-bn">সম্পূর্ণ স্বাস্থ্যসেবা</h2>
+    <p class="section-sub lang-en">From everyday medicines to diagnostic tests — we're your one-stop health centre at Ramkrishna Bazar.</p>
+    <p class="section-sub lang-bn">প্রতিদিনের ওষুধ থেকে শুরু করে ডায়াগনস্টিক পরীক্ষা পর্যন্ত — রামকৃষ্ণ বাজারে আপনার সব স্বাস্থ্য প্রয়োজন মেটানো হয়।</p>
+    <div class="services-grid">
+      <div class="service-card">
+        <div class="service-icon">💊</div>
+        <h3 class="lang-en">Medicine Supply</h3>
+        <h3 class="lang-bn">ওষুধ সরবরাহ</h3>
+        <p class="lang-en">All prescription & OTC medicines available. Doctor-recommended brands stocked fresh daily.</p>
+        <p class="lang-bn">সব প্রেসক্রিপশন ও OTC ওষুধ পাওয়া যায়। ডাক্তারের পরামর্শকৃত ব্র্যান্ড প্রতিদিন তাজা সংগ্রহ করা হয়।</p>
+        <span class="service-tag lang-en">Daily Available</span>
+        <span class="service-tag lang-bn">প্রতিদিন পাওয়া যায়</span>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">🩸</div>
+        <h3 class="lang-en">Blood Test</h3>
+        <h3 class="lang-bn">রক্ত পরীক্ষা</h3>
+        <p class="lang-en">CBC, blood sugar, lipid profile, thyroid & more. Home collection available.</p>
+        <p class="lang-bn">CBC, রক্তের শর্করা, লিপিড প্রোফাইল, থাইরয়েড ও আরও। বাড়ি থেকে নমুনা সংগ্রহ।</p>
+        <span class="service-tag lang-en">Home Collection</span>
+        <span class="service-tag lang-bn">বাড়িতে সংগ্রহ</span>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">💉</div>
+        <h3 class="lang-en">Stool, Urine & Sputum</h3>
+        <h3 class="lang-bn">মল, মূত্র ও কফ পরীক্ষা</h3>
+        <p class="lang-en">Complete routine stool/urine analysis, culture & sensitivity, sputum AFB tests.</p>
+        <p class="lang-bn">সম্পূর্ণ মল/মূত্র বিশ্লেষণ, কালচার ও সেন্সিটিভিটি, কফ AFB পরীক্ষা।</p>
+        <span class="service-tag lang-en">Quick Reports</span>
+        <span class="service-tag lang-bn">দ্রুত রিপোর্ট</span>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">🫀</div>
+        <h3 class="lang-en">ECG</h3>
+        <h3 class="lang-bn">ইসিজি</h3>
+        <p class="lang-en">12-lead ECG with instant digital report. Useful for heart monitoring & pre-surgery check.</p>
+        <p class="lang-bn">১২-লিড ইসিজি তাৎক্ষণিক ডিজিটাল রিপোর্ট সহ। হার্ট পর্যবেক্ষণ ও অস্ত্রোপচারের আগে পরীক্ষার জন্য।</p>
+        <span class="service-tag lang-en">Instant Report</span>
+        <span class="service-tag lang-bn">তাৎক্ষণিক রিপোর্ট</span>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">🔬</div>
+        <h3 class="lang-en">USG / Sonography</h3>
+        <h3 class="lang-bn">ইউএসজি / সোনোগ্রাফি</h3>
+        <p class="lang-en">Abdominal USG, obstetric scans and targeted ultrasound imaging at affordable rates.</p>
+        <p class="lang-bn">পেটের ইউএসজি, প্রসূতি স্ক্যান এবং সাশ্রয়ী মূল্যে আল্ট্রাসাউন্ড ইমেজিং।</p>
+        <span class="service-tag lang-en">Affordable</span>
+        <span class="service-tag lang-bn">সাশ্রয়ী</span>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">🚑</div>
+        <h3 class="lang-en">Emergency Care</h3>
+        <h3 class="lang-bn">জরুরি সেবা</h3>
+        <p class="lang-en">First aid, injections, IV fluids, BP/sugar monitoring. Rapid attention for any emergency patient.</p>
+        <p class="lang-bn">প্রাথমিক চিকিৎসা, ইনজেকশন, IV তরল, BP/শর্করা পর্যবেক্ষণ। যেকোনো জরুরি রোগীর জন্য দ্রুত মনোযোগ।</p>
+        <span class="service-tag lang-en">Always Ready</span>
+        <span class="service-tag lang-bn">সর্বদা প্রস্তুত</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTS -->
+<section class="section tests-bg" id="tests">
+  <div class="section-inner">
+    <p class="section-label lang-en">Diagnostic Tests</p>
+    <p class="section-label lang-bn">ডায়াগনস্টিক পরীক্ষা</p>
+    <h2 class="section-title lang-en">Tests Available Here</h2>
+    <h2 class="section-title lang-bn">এখানে যেসব পরীক্ষা হয়</h2>
+    <p class="section-sub lang-en">No need to travel far — most common diagnostic tests available right here in Purbasridharpur.</p>
+    <p class="section-sub lang-bn">দূরে যাওয়ার দরকার নেই — সবচেয়ে সাধারণ ডায়াগনস্টিক পরীক্ষাগুলি এখানেই পূর্বশ্রীধরপুরে পাওয়া যায়।</p>
+    <div class="tests-grid">
+      <div class="test-pill">Blood Sugar<small>রক্তের শর্করা</small></div>
+      <div class="test-pill">CBC / Haemogram<small>সিবিসি</small></div>
+      <div class="test-pill">Urine R/E<small>মূত্র পরীক্ষা</small></div>
+      <div class="test-pill">Stool R/E<small>মল পরীক্ষা</small></div>
+      <div class="test-pill">ECG<small>ইসিজি</small></div>
+      <div class="test-pill">USG Abdomen<small>পেটের ইউএসজি</small></div>
+      <div class="test-pill">Sputum AFB<small>কফ পরীক্ষা</small></div>
+      <div class="test-pill">Lipid Profile<small>লিপিড প্রোফাইল</small></div>
+      <div class="test-pill">Thyroid (TSH/T3/T4)<small>থাইরয়েড</small></div>
+      <div class="test-pill">Widal Test<small>উইডাল পরীক্ষা</small></div>
+      <div class="test-pill">Dengue NS1/IgG<small>ডেঙ্গু</small></div>
+      <div class="test-pill">Malaria (MP)<small>ম্যালেরিয়া</small></div>
+      <div class="test-pill">HbA1c<small>HbA1c</small></div>
+      <div class="test-pill">LFT / KFT<small>লিভার / কিডনি</small></div>
+      <div class="test-pill">Pregnancy Test<small>গর্ভধারণ পরীক্ষা</small></div>
+      <div class="test-pill">Blood Pressure<small>রক্তচাপ</small></div>
+    </div>
+  </div>
+</section>
+
+<!-- EMERGENCY -->
+<div class="emergency-bg">
+  <div class="emergency-inner">
+    <div class="emergency-text">
+      <h2 class="lang-en">🚨 Medical Emergency?</h2>
+      <h2 class="lang-bn">🚨 চিকিৎসা জরুরি অবস্থা?</h2>
+      <p class="lang-en">Don't panic. Come directly to Ramkrishna Medical & Diagnostic, Purbasridharpur. We handle emergencies — BP crisis, fever, IV fluids, wound care, injections — immediately.</p>
+      <p class="lang-bn">আতঙ্কিত হবেন না। সরাসরি রামকৃষ্ণ মেডিকেল ও ডায়াগনস্টিক, পূর্বশ্রীধরপুরে আসুন। আমরা জরুরি পরিস্থিতি সামলাই — BP সংকট, জ্বর, IV তরল, ক্ষত পরিচর্যা, ইনজেকশন — তাৎক্ষণিকভাবে।</p>
+    </div>
+    <a href="tel:+91XXXXXXXXXX" class="emergency-btn">
+      📞 <span class="lang-en">Call Emergency Now</span><span class="lang-bn">এখনই জরুরি কল করুন</span>
+    </a>
+  </div>
+</div>
+
+<!-- WHY US -->
+<section class="section" style="background:var(--gray-100);">
+  <div class="section-inner">
+    <p class="section-label lang-en">Why Choose Us</p>
+    <p class="section-label lang-bn">আমাদের কেন বেছে নেবেন</p>
+    <h2 class="section-title lang-en">Trusted by Villages Around Raidighi</h2>
+    <h2 class="section-title lang-bn">রাইদিঘির আশেপাশের গ্রামগুলির বিশ্বাসযোগ্য</h2>
+    <p class="section-sub lang-en">We serve the communities of Nagendrapur, Damkal, Kankandighi and more with honesty and care.</p>
+    <p class="section-sub lang-bn">আমরা নাগেন্দ্রপুর, দামকল, কাঁকানদিঘি ও আশেপাশের গ্রামগুলিকে সততা ও যত্ন দিয়ে সেবা করি।</p>
+    <div class="why-grid">
+      <div class="why-card">
+        <div class="why-num">5+</div>
+        <h4 class="lang-en">Years Serving</h4>
+        <h4 class="lang-bn">বছর ধরে সেবা</h4>
+        <p class="lang-en">Trusted by local families for years</p>
+        <p class="lang-bn">বছরের পর বছর স্থানীয় পরিবারের বিশ্বাস</p>
+      </div>
+      <div class="why-card">
+        <div class="why-num">10+</div>
+        <h4 class="lang-en">Tests Available</h4>
+        <h4 class="lang-bn">পরীক্ষা পাওয়া যায়</h4>
+        <p class="lang-en">Wide range of diagnostic services</p>
+        <p class="lang-bn">বিস্তৃত ডায়াগনস্টিক পরিষেবা</p>
+      </div>
+      <div class="why-card">
+        <div class="why-num">6+</div>
+        <h4 class="lang-en">Villages Covered</h4>
+        <h4 class="lang-bn">গ্রাম কভার করা হয়</h4>
+        <p class="lang-en">Nagendrapur, Damkal, Kankandighi & more</p>
+        <p class="lang-bn">নাগেন্দ্রপুর, দামকল, কাঁকানদিঘি ও আরও</p>
+      </div>
+      <div class="why-card">
+        <div class="why-num">⚡</div>
+        <h4 class="lang-en">Fast Reports</h4>
+        <h4 class="lang-bn">দ্রুত রিপোর্ট</h4>
+        <p class="lang-en">Most test results within same day</p>
+        <p class="lang-bn">বেশিরভাগ পরীক্ষার ফলাফল একই দিনে</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- AREA COVERAGE -->
+<section class="section area-bg" id="area">
+  <div class="section-inner">
+    <p class="section-label lang-en">Service Areas</p>
+    <p class="section-label lang-bn">সেবা এলাকা</p>
+    <h2 class="section-title lang-en">We Serve These Areas</h2>
+    <h2 class="section-title lang-bn">আমরা এই এলাকায় সেবা দিই</h2>
+    <p class="section-sub lang-en">Residents of the following areas can visit or call us for medicine, tests & emergency care.</p>
+    <p class="section-sub lang-bn">নিম্নলিখিত এলাকার বাসিন্দারা ওষুধ, পরীক্ষা ও জরুরি সেবার জন্য আমাদের কাছে আসতে বা কল করতে পারেন।</p>
+    <div class="area-tags">
+      <span class="area-tag">Purbasridharpur / পূর্বশ্রীধরপুর</span>
+      <span class="area-tag">Nagendrapur / নাগেন্দ্রপুর</span>
+      <span class="area-tag">Damkal / দামকল</span>
+      <span class="area-tag">Kankandighi / কাঁকানদিঘি</span>
+      <span class="area-tag">Raidighi / রাইদিঘি</span>
+      <span class="area-tag">Ramkrishna Bazar</span>
+      <span class="area-tag">South 24 Parganas / দক্ষিণ ২৪ পরগনা</span>
+    </div>
+  </div>
+</section>
+
+<!-- MAP -->
+<div class="map-section" id="contact">
+  <div class="map-inner">
+    <div style="padding:40px 0 20px;">
+      <p class="section-label lang-en">Find Us</p>
+      <p class="section-label lang-bn">আমাদের খুঁজুন</p>
+      <h2 class="section-title lang-en">Our Location</h2>
+      <h2 class="section-title lang-bn">আমাদের অবস্থান</h2>
+      <p class="section-sub lang-en">Ramkrishna Bazar, Purbasridharpur, PIN 743383, South 24 Parganas — Near Raidighi</p>
+      <p class="section-sub lang-bn">রামকৃষ্ণ বাজার, পূর্বশ্রীধরপুর, পিন ৭৪৩৩৮৩, দক্ষিণ ২৪ পরগনা — রাইদিঘির কাছে</p>
+    </div>
+    <div class="map-wrap">
+      <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3690.5!2d88.5!3d22.05!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjLCsDAzJzAwLjAiTiA4OMKwMzAnMDAuMCJF!5e0!3m2!1sen!2sin!4v1620000000000!5m2!1sen!2sin" 
+        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+        title="Ramkrishna Medical Location">
+      </iframe>
+    </div>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <h4>🏥 <span class="lang-en">Ramkrishna Medical</span><span class="lang-bn">রামকৃষ্ণ মেডিকেল</span></h4>
+        <p class="lang-en">Your trusted neighbourhood medical & diagnostic centre near Raidighi, South 24 Parganas.</p>
+        <p class="lang-bn">রাইদিঘির কাছে আপনার বিশ্বস্ত মহল্লার মেডিকেল ও ডায়াগনস্টিক সেন্টার, দক্ষিণ ২৪ পরগনা।</p>
+      </div>
+      <div class="footer-col">
+        <h4>📋 <span class="lang-en">Services</span><span class="lang-bn">সেবা</span></h4>
+        <a href="#services" class="lang-en">Medicine Supply</a><a href="#services" class="lang-bn">ওষুধ সরবরাহ</a>
+        <a href="#tests" class="lang-en">Blood Tests</a><a href="#tests" class="lang-bn">রক্ত পরীক্ষা</a>
+        <a href="#tests" class="lang-en">ECG & USG</a><a href="#tests" class="lang-bn">ইসিজি ও ইউএসজি</a>
+        <a href="#services" class="lang-en">Emergency Care</a><a href="#services" class="lang-bn">জরুরি সেবা</a>
+      </div>
+      <div class="footer-col">
+        <h4>📍 <span class="lang-en">Address</span><span class="lang-bn">ঠিকানা</span></h4>
+        <p>Ramkrishna Bazar,<br>Purbasridharpur,<br>PIN – 743383<br>South 24 Parganas, WB</p>
+      </div>
+      <div class="footer-col">
+        <h4>🕐 <span class="lang-en">Timings</span><span class="lang-bn">সময়</span></h4>
+        <p class="lang-en">Monday – Sunday<br>8:00 AM – 9:00 PM<br><br>Emergency cases:<br>Anytime</p>
+        <p class="lang-bn">সোমবার – রবিবার<br>সকাল ৮টা – রাত ৯টা<br><br>জরুরি ক্ষেত্রে:<br>যেকোনো সময়</p>
+        <br>
+        <a href="https://wa.me/91XXXXXXXXXX" style="color:#25D366; font-weight:600;">
+          <span class="lang-en">📱 WhatsApp Us</span>
+          <span class="lang-bn">📱 হোয়াটসঅ্যাপ করুন</span>
+        </a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span class="lang-en">© 2025 Ramkrishna Medical & Diagnostic. All rights reserved.</span>
+      <span class="lang-bn">© ২০২৫ রামকৃষ্ণ মেডিকেল ও ডায়াগনস্টিক। সর্বস্বত্ব সংরক্ষিত।</span>
+      <span class="lang-en">Serving Nagendrapur · Damkal · Kankandighi · Raidighi</span>
+      <span class="lang-bn">নাগেন্দ্রপুর · দামকল · কাঁকানদিঘি · রাইদিঘি পরিষেবা প্রদান করছি</span>
+    </div>
+  </div>
+</footer>
+
+<!-- WHATSAPP FAB -->
+<a href="https://wa.me/91XXXXXXXXXX?text=Hello%2C%20I%20need%20medical%20help" class="wa-fab" target="_blank" title="WhatsApp">
+  <svg width="28" height="28" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.124.557 4.118 1.529 5.845L0 24l6.344-1.524A11.95 11.95 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.83 9.83 0 01-5.012-1.37l-.36-.214-3.724.895.929-3.631-.234-.373A9.817 9.817 0 012.182 12C2.182 6.57 6.57 2.182 12 2.182S21.818 6.57 21.818 12 17.43 21.818 12 21.818z"/></svg>
+</a>
+
+<!-- CHAT FAB -->
+<button class="chat-fab" onclick="toggleChat()" title="Chat with us">💬</button>
+
+<!-- CHAT WINDOW -->
+<div class="chat-window" id="chatWindow">
+  <div class="chat-header">
+    <div class="chat-header-left">
+      <div class="chat-avatar">🏥</div>
+      <div>
+        <h4 class="lang-en">Ramkrishna Medical</h4>
+        <h4 class="lang-bn">রামকৃষ্ণ মেডিকেল</h4>
+        <p class="lang-en">Ask us anything</p>
+        <p class="lang-bn">যেকোনো কিছু জিজ্ঞেস করুন</p>
+      </div>
+    </div>
+    <button class="chat-close" onclick="toggleChat()">✕</button>
+  </div>
+  <div class="chat-messages" id="chatMessages">
+    <div class="msg bot lang-en">👋 Hello! I'm your medical assistant. How can I help you today?</div>
+    <div class="msg bot lang-bn">👋 নমস্কার! আমি আপনার মেডিকেল সহকারী। আজ আপনাকে কীভাবে সাহায্য করতে পারি?</div>
+  </div>
+  <div class="chat-quick" id="quickReplies">
+    <button class="quick-btn lang-en" onclick="quickSend('What tests are available?')">Tests available?</button>
+    <button class="quick-btn lang-bn" onclick="quickSend('কোন কোন পরীক্ষা হয়?')">কোন পরীক্ষা হয়?</button>
+    <button class="quick-btn lang-en" onclick="quickSend('What medicines do you have?')">Medicines</button>
+    <button class="quick-btn lang-bn" onclick="quickSend('কী কী ওষুধ পাওয়া যায়?')">ওষুধ</button>
+    <button class="quick-btn lang-en" onclick="quickSend('What are your timings?')">Timings</button>
+    <button class="quick-btn lang-bn" onclick="quickSend('খোলার সময় কতটা?')">সময়</button>
+    <button class="quick-btn lang-en" onclick="quickSend('Emergency help needed')">Emergency</button>
+    <button class="quick-btn lang-bn" onclick="quickSend('জরুরি সাহায্য দরকার')">জরুরি</button>
+  </div>
+  <div class="chat-input-row">
+    <input class="chat-input" id="chatInput" placeholder="Type your question..." onkeydown="if(event.key==='Enter')sendChat()">
+    <button class="chat-send" onclick="sendChat()">➤</button>
+  </div>
+</div>
+
+<script>
+// ── LANGUAGE SWITCH ──
+function setLang(lang) {
+  const body = document.getElementById('body-root');
+  const btnEn = document.getElementById('btn-en');
+  const btnBn = document.getElementById('btn-bn');
+  if (lang === 'bn') {
+    body.classList.add('bangla');
+    btnBn.classList.add('active');
+    btnEn.classList.remove('active');
+    document.getElementById('chatInput').placeholder = 'আপনার প্রশ্ন লিখুন...';
+  } else {
+    body.classList.remove('bangla');
+    btnEn.classList.add('active');
+    btnBn.classList.remove('active');
+    document.getElementById('chatInput').placeholder = 'Type your question...';
+  }
+  localStorage.setItem('lang', lang);
+}
+// Restore saved lang
+const savedLang = localStorage.getItem('lang');
+if (savedLang) setLang(savedLang);
+
+// ── CHAT BOT ──
+let chatOpen = false;
+function toggleChat() {
+  chatOpen = !chatOpen;
+  document.getElementById('chatWindow').classList.toggle('open', chatOpen);
+}
+
+const isBangla = () => document.getElementById('body-root').classList.contains('bangla');
+
+const responses = {
+  'test': {
+    en: '🧪 We offer: Blood Sugar, CBC, Urine R/E, Stool, ECG, USG, Thyroid, Dengue, Malaria, Lipid Profile, Widal & more! Come to Ramkrishna Bazar, Purbasridharpur.',
+    bn: '🧪 আমাদের এখানে: রক্তের শর্করা, CBC, মূত্র, মল, ইসিজি, ইউএসজি, থাইরয়েড, ডেঙ্গু, ম্যালেরিয়া, লিপিড প্রোফাইল, উইডাল ও আরও! রামকৃষ্ণ বাজার, পূর্বশ্রীধরপুরে আসুন।'
+  },
+  'medicine': {
+    en: '💊 We stock all prescription & OTC medicines. If we don\'t have it, we can arrange it quickly! Visit or WhatsApp us.',
+    bn: '💊 আমরা সব প্রেসক্রিপশন ও OTC ওষুধ রাখি। না থাকলে দ্রুত ব্যবস্থা করা হয়! আসুন বা হোয়াটসঅ্যাপ করুন।'
+  },
+  'time': {
+    en: '🕐 We are open Monday to Sunday, 8:00 AM to 9:00 PM. Emergency cases attended any time!',
+    bn: '🕐 আমরা সোমবার থেকে রবিবার, সকাল ৮টা থেকে রাত ৯টা পর্যন্ত খোলা থাকি। জরুরি ক্ষেত্রে যেকোনো সময় সেবা!'
+  },
+  'emergency': {
+    en: '🚨 Come immediately! We handle BP crisis, fever, wounds, IV fluids & injections. Address: Ramkrishna Bazar, Purbasridharpur. Or call us NOW!',
+    bn: '🚨 এখনই আসুন! আমরা BP সংকট, জ্বর, ক্ষত, IV তরল ও ইনজেকশন সামলাই। ঠিকানা: রামকৃষ্ণ বাজার, পূর্বশ্রীধরপুর। বা এখনই কল করুন!'
+  },
+  'address': {
+    en: '📍 Ramkrishna Bazar, Purbasridharpur, PIN 743383, South 24 Parganas. Near Raidighi. We serve Nagendrapur, Damkal, Kankandighi areas!',
+    bn: '📍 রামকৃষ্ণ বাজার, পূর্বশ্রীধরপুর, পিন ৭৪৩৩৮৩, দক্ষিণ ২৪ পরগনা। রাইদিঘির কাছে। আমরা নাগেন্দ্রপুর, দামকল, কাঁকানদিঘি এলাকায় সেবা দিই!'
+  },
+  'blood': {
+    en: '🩸 Yes! Blood tests including CBC, Blood Sugar, Lipid Profile, Thyroid, Dengue, Widal & more. Home collection also available!',
+    bn: '🩸 হ্যাঁ! CBC, রক্তের শর্করা, লিপিড প্রোফাইল, থাইরয়েড, ডেঙ্গু, উইডাল সহ রক্ত পরীক্ষা। বাড়িতে নমুনা সংগ্রহও পাওয়া যায়!'
+  },
+  'default': {
+    en: '🙏 Thank you for reaching out! For queries, visit us at Ramkrishna Bazar, Purbasridharpur or WhatsApp us. We serve Nagendrapur, Damkal & Kankandighi areas.',
+    bn: '🙏 যোগাযোগের জন্য ধন্যবাদ! জানতে হলে রামকৃষ্ণ বাজার, পূর্বশ্রীধরপুরে আসুন বা হোয়াটসঅ্যাপ করুন। আমরা নাগেন্দ্রপুর, দামকল ও কাঁকানদিঘি এলাকায় সেবা দিই।'
+  }
+};
+
+function getBotReply(text) {
+  const t = text.toLowerCase();
+  const lang = isBangla() ? 'bn' : 'en';
+  if (t.includes('test') || t.includes('পরীক্ষা') || t.includes('ecg') || t.includes('usg') || t.includes('blood') || t.includes('urine')) return responses.blood[lang];
+  if (t.includes('medicine') || t.includes('drug') || t.includes('ওষুধ')) return responses.medicine[lang];
+  if (t.includes('time') || t.includes('hour') || t.includes('open') || t.includes('সময়') || t.includes('খোলা')) return responses.time[lang];
+  if (t.includes('emergency') || t.includes('urgent') || t.includes('জরুরি')) return responses.emergency[lang];
+  if (t.includes('address') || t.includes('where') || t.includes('location') || t.includes('ঠিকানা') || t.includes('কোথায়')) return responses.address[lang];
+  if (t.includes('blood') || t.includes('রক্ত')) return responses.blood[lang];
+  return responses.default[lang];
+}
+
+function addMsg(text, who) {
+  const div = document.createElement('div');
+  div.className = `msg ${who}`;
+  div.textContent = text;
+  const msgs = document.getElementById('chatMessages');
+  msgs.appendChild(div);
+  msgs.scrollTop = msgs.scrollHeight;
+}
+
+function showTyping() {
+  const div = document.createElement('div');
+  div.className = 'msg typing';
+  div.id = 'typing';
+  div.innerHTML = '<div class="typing-dots"><span></span><span></span><span></span></div>';
+  const msgs = document.getElementById('chatMessages');
+  msgs.appendChild(div);
+  msgs.scrollTop = msgs.scrollHeight;
+}
+
+function removeTyping() {
+  const t = document.getElementById('typing');
+  if (t) t.remove();
+}
+
+function sendChat() {
+  const input = document.getElementById('chatInput');
+  const text = input.value.trim();
+  if (!text) return;
+  addMsg(text, 'user');
+  input.value = '';
+  document.getElementById('quickReplies').style.display = 'none';
+  showTyping();
+  setTimeout(() => {
+    removeTyping();
+    addMsg(getBotReply(text), 'bot');
+  }, 900);
+}
+
+function quickSend(text) {
+  document.getElementById('chatInput').value = text;
+  sendChat();
+}
+</script>
+</body>
+</html>
